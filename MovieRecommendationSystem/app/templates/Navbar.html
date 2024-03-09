@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CineMatrix</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXd4RCKUAYZlDrfokYhSTUi1bE2sBrtcZ7Qg&usqp=CAU">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.pcworld.com/wp-content/uploads/2024/02/Netflix-Hintergrund.jpg?quality=50&strip=all'); /* Replace with your actual direct image URL */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Full viewport height */
+      position: relative; /* Relative positioning for absolute positioning of the social icons */
+    }
+
+    nav {
+      background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for better readability */
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .left-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .left-nav img {
+      width: 50px; /* Adjust the size as needed */
+      margin-right: 15px; /* Increased margin for more space */
+    }
+
+    .left-nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 30px; /* Increased margin for more space */
+    }
+
+    .right-nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .right-nav a i {
+      margin-right: 5px;
+    }
+
+    .nav-icon {
+      font-size: 20px;
+    }
+
+    .search-bar {
+      text-align: center; /* Center the text in the search bar */
+      position: relative;
+    }
+
+    .search-bar input {
+      width: 300px; /* Adjust the width as needed */
+      padding: 8px 30px 8px 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .search-icon {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #333;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .social-icons {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="left-nav">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXd4RCKUAYZlDrfokYhSTUi1bE2sBrtcZ7Qg&usqp=CAU" alt="Logo">
+    <a href="#"><i class="fas fa-home nav-icon"></i>Home</a>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <i class="fas fa-search search-icon"></i>
+  </div>
+  <div class="right-nav">
+    <a href="#"><i class="fas fa-list nav-icon"></i>Watchlist</a>
+    <a href="/login"><i class="fas fa-sign-in-alt nav-icon"></i>Login</a>
+    <a href="/register"><i class="fas fa-user-plus nav-icon"></i>Register</a>
+  </div>
+</nav>
+
+<div class="social-icons">
+    <div class="footer-copyright text-center py-3">© 2024
+  <a href="https://www.linkedin.com/in/lohith-reddy-ab8739284/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://github.com/LohithReddy1611" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+
+</body>
+</html>

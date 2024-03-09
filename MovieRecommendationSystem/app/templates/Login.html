@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .background-container {
+      background-image: url('https://www.pcworld.com/wp-content/uploads/2024/02/Netflix-Hintergrund.jpg?quality=50&strip=all'); /* Background image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Full viewport height */
+      filter: blur(5px); /* Apply a slight blur effect */
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1; /* Move the background behind other content */
+    }
+
+    .login-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .login-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .form-group input {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .login-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-button:hover {
+      background-color: #0056b3;
+    }
+
+    .signup-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .signup-link a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<div class="background-container"></div>
+
+<div class="login-container">
+  <div class="login-header">
+    <h2>Login</h2>
+  </div>
+  <form class="login-form" action="#" method="post" id="login-form">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit" class="login-button">Login</button>
+  </form>
+  <div class="signup-link">
+    Don't have an account? <a href="/register">Register</a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const loginForm = document.getElementById('login-form');
+    loginForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Login successful!'); // Simulate successful login
+      window.location.href = '/'; // Redirect to home page
+    });
+  });
+</script>
+
+</body>
+</html>
