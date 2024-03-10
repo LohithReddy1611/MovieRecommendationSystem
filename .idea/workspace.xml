@@ -4,23 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12ae0ae2-30be-424f-aaf4-be9839acd3ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MRS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Aboutus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Contactus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="12ae0ae2-30be-424f-aaf4-be9839acd3ec" name="Changes" comment="Commit the changes">
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/MovieRecommendationSystem/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/MovieRecommendationSystem/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/MovieRecommendationSystem/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/MovieRecommendationSystem/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/MovieRecommendationSystem/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/migrations/0002_user_first_name_user_last_name_alter_user_id_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/static/recommend/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/static/recommend/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/static/recommend/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/static/recommend/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendationSystem/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/templates/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieRecommendationSystem/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieRecommendationSystem/app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -97,7 +105,20 @@
       <option name="presentableId" value="Default" />
       <updated>1709984999131</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit the changes">
+      <option name="closed" value="true" />
+      <created>1710005828214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710005828214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit the changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit the changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
